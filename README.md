@@ -7,7 +7,7 @@ Objectif: découvrir Symfony 7
 * Installation
 * Arborescence
 * Premier pas avec Twig
-
+<br>
 <div>
 <img src="https://avatars.githubusercontent.com/u/143937?s=280&v=4" width="30" height="30">
 <img src="https://avatars.githubusercontent.com/u/5296178?s=280&v=4" width="30" height="30" style="border-radius:50%; margin-left:10px;">
