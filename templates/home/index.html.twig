@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Random Gallery - Home{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <main>
+
+    <section class="pt-5 text-center container">
+        <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <p class="lead text-muted">"Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever... It remembers little things, long after you have forgotten everything."</p>
+            <p>Aaron Siskind</p>
+        </div>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                {% for image in images %}
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{{ image }}">
+                            {# <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div> #}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <button id="btnRefresh" class="d-block btn btn-secondary my-0 mx-auto">Refresh</button>
+
+    </main>   
+</div>
+{% endblock %}
