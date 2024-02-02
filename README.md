@@ -1,12 +1,12 @@
-# Formation Symfony 7 par [Yoan Bernabeu](https://www.linkedin.com/in/yoan-bernabeu/)
+# Formation [Symfony 7 en 7 projets](https://formation.yoandev.co/view/courses/decouvrez-symfony-7-en-7-projets) par [Yoan Bernabeu](https://www.linkedin.com/in/yoan-bernabeu/)
 
 ## Projet 1: Random Gallery
 
 Objectif: découvrir Symfony 7
-* Pré-requis
+* Pré-requis: PHP, composer, Symfony
 * Installation
-* Arborescence
-* Premier pas avec Twig
+* Arborescence d'une projet
+* Premiers pas avec Twig
 <br>
 <div>
 <img src="https://avatars.githubusercontent.com/u/143937?s=280&v=4" width="30" height="30">
