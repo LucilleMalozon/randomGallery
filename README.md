@@ -2,6 +2,9 @@
 
 ## Projet 1: Random Gallery
 
+![projet1-gallery](https://github.com/LucilleMalozon/randomGallery/assets/79318424/64c34768-c961-4293-aa8d-1134045f96cc)
+
+
 Objectif: découvrir Symfony 7
 * Pré-requis: PHP, composer, Symfony
 * Installation
